@@ -8,7 +8,7 @@ const StudentList = ({ students, addToFavorites, removeStudent }) => {
         {students.map((student) => (
             <li key={student.rollNumber} className="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-gray-100 p-4 rounded-md shadow-sm">
                 <span className="text-lg font-medium">
-                    {student.name} (Roll No: {student.rollNumber}, Class: {student.studentClass}, Section: {student.section})
+                    {student.name} (Roll No: {student.rollNumber}, Class: {student.selectedClass}, Section: {student.section})
                 </span>
                 <div className="ml-2 flex gap-2 mt-2 sm:mt-0">
                     <button 
