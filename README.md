@@ -11,7 +11,7 @@ This is a simple web application for managing students, including adding, removi
 
 You can check out the live demo of the project hosted on Vercel:
 
-[Live Demo on Vercel](https://your-vercel-link.vercel.app/)
+[Live Demo on Vercel](https://student-management-react-psi.vercel.app/)
 
 ## Getting Started
 
