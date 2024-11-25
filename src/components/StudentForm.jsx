@@ -6,7 +6,7 @@ const StudentForm = ({ addStudent }) => {
     const [section, setSection] = useState('');
 
     const romanNumerals = [
-        'LKG', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'
+        'LKG', 'UKG','I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'
     ];
 
     const handleSubmit = (e) => {
